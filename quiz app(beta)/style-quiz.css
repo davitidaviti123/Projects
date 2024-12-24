@@ -147,26 +147,17 @@ footer {
   display: flex;
   justify-content: center;
 }
-#quizstart-hyperlink {
-  color: #00b3ff;
-  text-decoration: none;
-  padding-bottom: 10px;
-  font-size: 55px;
-  margin-left: 40px;
-  position: relative;
-  bottom: 10px;
-  left: 365px;
+#timer-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    padding: 20px,20px,20px,20px;
 }
-#quizstart-hyperlink:hover {
-  color: rgb(70, 182, 247);
-  background-color: white;
-  transition: 1s;
-  font-size: 56px;
-}
-#div-welcome {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: space-between;
-  gap: 20px;
+#timer {
+    color: rgb(0, 179, 255);
+    font-size: 53px;
 }
